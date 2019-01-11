@@ -1,0 +1,210 @@
+SQL> select * from accountdetails;
+
+USERNAME             INSURED_NAME
+-------------------- ------------------------------
+INSURED_STREET                           INSURED_CITY    INSURED_STATE
+---------------------------------------- --------------- ---------------
+INSURED_ZIP BUSINESS_SEGMENT               ACCOUNT_NUMBER AGENT_NAME
+----------- ------------------------------ -------------- ----------
+Akshay               Akshay Dutta
+Abc                                      Xyz             Rty
+     700108 auto                                   112233 Sufall
+
+Aki                  Akshay Roy
+Abcd                                     Xiz             Rtx
+     700109 resturant                              112234 Sufall
+
+USERNAME             INSURED_NAME
+-------------------- ------------------------------
+INSURED_STREET                           INSURED_CITY    INSURED_STATE
+---------------------------------------- --------------- ---------------
+INSURED_ZIP BUSINESS_SEGMENT               ACCOUNT_NUMBER AGENT_NAME
+----------- ------------------------------ -------------- ----------
+
+Sushanth             Sushanth
+Abed                                     Xz              Rt
+     700110 resturant                              112237 Sufall
+
+Jaya                 Jaya Ghosh
+aa                                       bb              ff
+
+USERNAME             INSURED_NAME
+-------------------- ------------------------------
+INSURED_STREET                           INSURED_CITY    INSURED_STATE
+---------------------------------------- --------------- ---------------
+INSURED_ZIP BUSINESS_SEGMENT               ACCOUNT_NUMBER AGENT_NAME
+----------- ------------------------------ -------------- ----------
+     700102 apartment                           123456789 Ram
+
+
+SQL> select * from Profiledetails;
+select * from Profiledetails
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> select * from profiledetails;
+select * from profiledetails
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> select * from profileDetails;
+select * from profileDetails
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> select * from reportgeneration;
+
+QUESTION
+--------------------------------------------------------------------------------
+ANSWER                          WEIGHTAGE POLICY_NUMBER
+------------------------------ ---------- -------------
+Resturant type
+only dining                           200         12345
+
+Resturant sq ft
+less than 1500 sq.ft                  200         12345
+
+
+SQL> select * from profileDetails;
+select * from profileDetails
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> select * from policyDetails;
+
+   PREMIUM POLICY_NUMBER ACCOUNT_NUMBER
+---------- ------------- --------------
+     10000           123         112233
+    100000          1234         112234
+   1000000         12345         112237
+
+SQL> set linesize 300;
+SQL> select * from accountdetails;
+
+USERNAME             INSURED_NAME                   INSURED_STREET                           INSURED_CITY    INSURED_STATE   INSURED_ZIP BUSINESS_SEGMENT               ACCOUNT_NUMBER AGENT_NAME
+-------------------- ------------------------------ ---------------------------------------- --------------- --------------- ----------- ------------------------------ -------------- ----------
+Akshay               Akshay Dutta                   Abc                                      Xyz          Rty             700108 auto                                   112233 Sufall
+Aki                  Akshay Roy                     Abcd                                     Xiz          Rtx             700109 resturant                              112234 Sufall
+Sushanth             Sushanth                       Abed                                     Xz           Rt              700110 resturant                              112237 Sufall
+Jaya                 Jaya Ghosh                     aa                                       bb           ff              700102 apartment                           123456789 Ram
+
+SQL> select * from reportgeneration;
+
+QUESTION                                                                         ANSWER                  WEIGHTAGE POLICY_NUMBER
+-------------------------------------------------------------------------------- ------------------------------ ---------- -------------
+Resturant type                                                                   only dining                   200         12345
+Resturant sq ft                                                                  less than 1500 sq.ft                  200         12345
+
+SQL> select * from profileDetails;
+select * from profileDetails
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> select * from policyDetails;
+
+   PREMIUM POLICY_NUMBER ACCOUNT_NUMBER
+---------- ------------- --------------
+     10000           123         112233
+    100000          1234         112234
+   1000000         12345         112237
+
+SQL>
+SQL> SQL> select * from reportgeneration;
+SP2-0734: unknown command beginning "SQL> selec..." - rest of line ignored.
+SQL>
+SQL> QUESTION
+SP2-0042: unknown command "QUESTION" - rest of line ignored.
+SQL> --------------------------------------------------------------------------------
+SQL> ANSWER                          WEIGHTAGE POLICY_NUMBER
+SP2-0734: unknown command beginning "ANSWER    ..." - rest of line ignored.
+SQL> ------------------------------ ---------- -------------
+SQL> Resturant type
+SP2-0734: unknown command beginning "Resturant ..." - rest of line ignored.
+SQL> only dining                           200         12345
+SP2-0734: unknown command beginning "only dinin..." - rest of line ignored.
+SQL>
+SQL> Resturant sq ft
+SP2-0734: unknown command beginning "Resturant ..." - rest of line ignored.
+SQL> less than 1500 sq.ft                  200         12345
+SP2-0734: unknown command beginning "less than ..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SQL>
+SQL>
+SQL> SQL> select * from profileDetails;
+SP2-0734: unknown command beginning "SQL> selec..." - rest of line ignored.
+SQL> select * from profileDetails
+  2                *
+  3  ERROR at line 1:
+  4  ORA-00942: table or view does not exist
+  5
+SQL>
+SQL> SQL> select * from policyDetails;
+SP2-0734: unknown command beginning "SQL> selec..." - rest of line ignored.
+SQL>
+SQL>    PREMIUM POLICY_NUMBER ACCOUNT_NUMBER
+SP2-0734: unknown command beginning "PREMIUM PO..." - rest of line ignored.
+SQL> ---------- ------------- --------------
+SQL>      10000           123         112233
+SQL>     100000          1234         112234
+SQL>    1000000         12345         112237
+SQL>
+SQL> SQL> set linesize 300;
+SP2-0734: unknown command beginning "SQL> set l..." - rest of line ignored.
+SQL> SQL> select * from accountdetails;
+SP2-0734: unknown command beginning "SQL> selec..." - rest of line ignored.
+SQL>
+SQL> USERNAME             INSURED_NAME                   INSURED_STREET                           INSURED_CITY    INSURED_STATE   INSURED_ZIP BUSINESS_SEGMENT               ACCOUNT_NUMBER AGENT_NAME
+SP2-0734: unknown command beginning "USERNAME  ..." - rest of line ignored.
+SQL> -------------------- ------------------------------ ---------------------------------------- --------------- --------------- ----------- ------------------------------ -------------- ----------
+SQL> Akshay               Akshay Dutta                   Abc                                      Xyz          Rty             700108 auto                                   112233 Sufall
+SP2-0734: unknown command beginning "Akshay    ..." - rest of line ignored.
+SQL> Aki                  Akshay Roy                     Abcd                                     Xiz          Rtx             700109 resturant                              112234 Sufall
+SP2-0734: unknown command beginning "Aki             ..." - rest of line ignored.
+SQL> Sushanth             Sushanth                       Abed                                     Xz           Rt              700110 resturant                              112237 Sufall
+SP2-0734: unknown command beginning "Sushanth  ..." - rest of line ignored.
+SQL> Jaya                 Jaya Ghosh                     aa                                       bb           ff              700102 apartment                           123456789 Ram
+SP2-0734: unknown command beginning "Jaya      ..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SQL>
+SQL> SQL> select * from reportgeneration;
+SP2-0734: unknown command beginning "SQL> selec..." - rest of line ignored.
+SQL>
+SQL> QUESTION                                                                         ANSWER                  WEIGHTAGE POLICY_NUMBER
+SP2-0734: unknown command beginning "QUESTION  ..." - rest of line ignored.
+SQL> -------------------------------------------------------------------------------- ------------------------------ ---------- -------------
+SQL> Resturant type                                                                   only dining                   200         12345
+SP2-0734: unknown command beginning "Resturant ..." - rest of line ignored.
+SQL> Resturant sq ft                                                                  less than 1500 sq.ft                  200         12345
+SP2-0734: unknown command beginning "Resturant ..." - rest of line ignored.
+SQL>
+SQL> SQL> select * from profileDetails;
+SP2-0734: unknown command beginning "SQL> selec..." - rest of line ignored.
+SQL> select * from profileDetails
+  2                *
+  3  ERROR at line 1:
+  4  ORA-00942: table or view does not exist
+  5
+SQL>
+SQL> SQL> select * from policyDetails;
+SP2-0734: unknown command beginning "SQL> selec..." - rest of line ignored.
+SQL>
+SQL>    PREMIUM POLICY_NUMBER ACCOUNT_NUMBER
+SP2-0734: unknown command beginning "PREMIUM PO..." - rest of line ignored.
+SQL> ---------- ------------- --------------
+SQL>      10000           123         112233
+SQL>     100000          1234         112234
+SQL>    1000000         12345         112237
+SQL>
+SQL>    1000000         12345         112237
